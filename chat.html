@@ -65,7 +65,7 @@
         event.preventDefault(); // Evita salto de línea si fuera textarea
         const message = input.value.trim();
         if (message !== '') {
-          fetch("https://python-pusher.onrender.com", {
+          fetch("https://python-pusher.onrender.com/", {
             method: "POST",
             headers: {
               "Content-Type": "application/json"
